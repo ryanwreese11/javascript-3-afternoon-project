@@ -50,7 +50,19 @@ var employees = [
     3. Return the updated employee array.
 */
 
-//Code Here
+function employeeUpdater (){
+  employees.forEach((employees, index, arr) => {
+  for(let key in employees){
+    if(employees[key] === 'Theo'){
+      delete employees[key]
+    } else if([key] === 'Lorie') {
+      department[key] === 'HR'
+    }
+}return employees
+  }
+
+
+  
 
 
 
